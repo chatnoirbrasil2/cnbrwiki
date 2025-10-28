@@ -1,0 +1,16 @@
+/* Espaço reservado para logo */
+.md-header-nav__title::before {
+    content: ' '; /* adicionar logo aqui */
+    display: block;
+    height: 60px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+a {
+    color: #00FF23;
+}
