@@ -1,0 +1,36 @@
+site_name: Miraculous Wiki CNBR
+site_url: https://wiki.cnbr.nl/
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: '00FF23'
+    accent: '00FF23'
+  font:
+    text: Roboto
+    code: Roboto Mono
+nav:
+  - Início: index.md
+  - Sobre: sobre.md
+  - Personagens:
+      - Ladybug: personagens/ladybug.md
+      - Cat Noir: personagens/cat-noir.md
+  - Vilões:
+      - Hawk Moth: viloes/hawk-moth.md
+  - Locais:
+      - Colégio: locais/colegio-francois-dupont.md
+  - Temporadas:
+      - Temporada 1: temporadas/temporada-1.md
+  - Estúdios:
+      - ZAG: estudios/zag.md
+  - Dublagem:
+      - Brasil: dublagem/brasil.md
+  - Cronologia:
+      - Ordem de Episódios: cronologia/ordem-episodios.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+extra_css:
+  - css/extra.css
